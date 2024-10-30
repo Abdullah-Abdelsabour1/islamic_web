@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css style -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- css loading screen -->
+    <!-- <link rel="stylesheet" href="css/LoadingScreen.css">   -->
+    <!-- CDN fontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="icon" type="image/png" sizes="24x24" href="images/mosque-icon.png"/> <link>
+    <title>islam web</title>
+</head>
+<body>
+    
+     <!-- start loading the screen -->
+     <div class="screenLoader">
+        <div class="loader">
+           <div class="loader__bar"></div>
+           <div class="loader__bar"></div>
+           <div class="loader__bar"></div>
+           <div class="loader__bar"></div>
+           <div class="loader__bar"></div>
+           <div class="loader__ball"></div>
+       </div>
+   </div>
+   <!-- End loading the screen-->
+
+    <!-- start scrollToTop -->
+    <div class="scrollTop">
+        <i class="fa fa-chevron-up "></i>
+    </div>
+    <!-- End scrollToTop -->
+     <!-- start navBar -->
+     <header>
+        <div class="container  position-relative  d-flex  align-items-center  justify-content-between ">
+            <div class="nav__logo"> <a href="index.html"> <i class="fa-solid fa-mosque"></i></a></div>
+            <div class = "toggleBurger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </div>  
+        
+    </header>
+    <!-- end navBar -->
+    
+    <!-- start side bar  -->
+        <div class="side__Bar" id="side__Bar">
+            <div class="close"><i class="fa-solid fa-xmark"></i></div>
+           
+            <ul class="nav__links container" id="nav__links">
+                <li><a href="index.html">الرئيسية</a></li>
+                <li class="active"><a href="choosequraan.html">القران الكريم</a></li>
+                <li><a href="hadith.html">أحاديث</a></li>
+                
+                <li><a href="All_lectures.html">محاضرات دينية</a></li>
+                <li><a href="books.html">كتب</a></li>
+                <li><a href="adkkar.html">اذكار</a></li>
+                <li><a href="prayerTiming.html">مواقيت الصلاة</a></li>
+                <li><a href="Names_Of_Allah.html">أسماء الله الحسني</a></li>
+                <li><a href="QAS.html">سؤال وجواب</a></li>
+                <li><a href="developer.html">نبذة عن المطورين</a></li>
+                <li><a href="contact.html">تواصل معنا</a></li>
+               
+            </ul>
+        </div> 
+    <!-- End side bar  -->
+
+    <!-- statr quraan page  -->
+    <div class="quraan">
+         
+        <h2 class="heading">رحلة طيبة في رحاب <br>القران الكريم</h2>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <p class="choose"> اختر القارئ</p>
+                    <select class="form-select" id="choose__reciters" aria-label="Default select example">
+                        <option value="" selected> اختر القارئ</option>
+                    </select>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <p class="choose"> اختر الرواية</p>
+                    <select class="form-select"  id="choose__moshaf" aria-label="Default select example">
+                        <option value="" selected> اختر الرواية</option>
+                      </select>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                     <p class="choose"> اختر السورة</p>
+                    <select class="form-select"  id="choose__Surah" aria-label="Default select example">
+                         <option value="" selected> اختر السورة</option>
+                      </select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                       <audio controls id="audioPlayer">
+                          <source src="" type="audio/mp3">
+                          Your browser does not support the audio element.
+                      </audio>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- end quraan page  -->
+
+    <!-- start reciter  -->
+     <div class="reciters" style="background-color:#eee">
+        
+        <h2 class="main-heading mt-5 pt-5 ">اشهر القراء</h2>
+        <div class="container pt-5 ">
+            <div class="row">
+                <!-- get data use js  -->
+            </div>
+        </div> 
+    </div> 
+    <!-- End reciter  -->
+
+    <!-- bootstrap js -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!--  js script-->
+    <script async src="js/main.js"></script>
+    <script src="quraanAudio.js"></script>
+</body>
+</html>

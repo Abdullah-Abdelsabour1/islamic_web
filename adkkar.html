@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CDN fontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- css style -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- css loading screen -->
+    <link rel="stylesheet" href="css/LoadingScreen.css">
+    <link rel="icon" type="image/png" sizes="24x24" href="images/mosque-icon.png"/> <link>
+    <title>islam web</title>
+</head>
+
+<body >
+    
+     <!-- start loading the screen -->
+    <div class="screenLoader">
+        <div class="loader">
+           <div class="loader__bar"></div>
+           <div class="loader__bar"></div>
+           <div class="loader__bar"></div>
+           <div class="loader__bar"></div>
+           <div class="loader__bar"></div>
+           <div class="loader__ball"></div>
+       </div>
+    </div>
+   <!-- End loading the screen-->
+
+    <!-- start scrollToTop -->
+    <div class="scrollTop">
+        <i class="fa fa-chevron-up "></i>
+    </div>
+    <!-- End scrollToTop -->
+      <!-- start navBar -->
+      <header>
+        <div class="container  position-relative  d-flex  align-items-center  justify-content-between ">
+            <div class="nav__logo"> <a href="index.html"> <i class="fa-solid fa-mosque"></i></a></div>
+            <!-- <div class="heading"> <h2>مكتبة المسلم</h2></div>  -->
+            <div class = "toggleBurger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </div>  
+        
+    </header>
+    <!-- end navBar -->
+    
+    <!-- start side bar  -->
+        <div class="side__Bar" id="side__Bar">
+            <div class="close"><i class="fa-solid fa-xmark"></i></div>
+           
+            <ul class="nav__links container" id="nav__links">
+                <li><a href="index.html">الرئيسية</a></li>
+                <li><a href="choosequraan.html">القران الكريم</a></li>
+                <li><a href="hadith.html">أحاديث</a></li>
+                
+                <li><a href="All_lectures.html">محاضرات دينية</a></li>
+                <li><a href="books.html">كتب</a></li>
+                <li class="active"><a href="adkkar.html">اذكار</a></li>
+                <li><a href="prayerTiming.html">مواقيت الصلاة</a></li>
+                <li><a href="Names_Of_Allah.html">أسماء الله الحسني</a></li>
+                <li><a href="QAS.html">سؤال وجواب</a></li>
+                <li><a href="developer.html">نبذة عن المطورين</a></li>
+                <li><a href="contact.html">تواصل معنا</a></li>
+               
+            </ul>
+        </div> 
+    <!-- End side bar  -->
+
+    <!-- start adkar -->
+     <!-- Swiper -->
+     
+     <div class="athkar min-vh-100 w-100 bg-light py-2  ">
+        <div class="mainContainer bg-white mx-auto w-95 border-5 shadow-sm rounded-3  ">
+            <!-- start swipper -->
+            <div class="swiper mySwiper mt-2 p-4 w-95 position-relative mb-5">
+                <div class="swiper-wrapper">
+    
+                    <div class="swiper-slide flex-between Ar-dir w-300p  p-3 position-relative text-center text-white overflow-hidden " id="MorninngThkr" data-name="اذكار الصباح">
+                        <div class="info fs-4 fw-medium  d-flex  flex-column  mt-4 mb-2 justify-content-center "> <p> اذكار الصباح</p> <p>  3 اذكار </p></div>
+                        <div class="image overflow-hidden"> <img src="images/sun.png" class="w-100 h-100" alt="sun.png"></div>
+                    </div> 
+                    
+                    <div class="swiper-slide flex-between Ar-dir w-300p  p-3 position-relative text-center text-white overflow-hidden" id="AfterNoonThkr" data-name="اذكار المساء">
+                        <div class="info fs-4 fw-medium  d-flex  flex-column  mt-4  mb-2 justify-content-center"> <p> اذكار المساء</p> <p>  7ذكار </p></div>
+                        <div class="image overflow-hidden"> <img src="images/moon.png"  class="w-100 h-100" alt="moon.png"></div>
+                    </div> 
+    
+                    <div class="swiper-slide flex-between Ar-dir w-300p p-3 position-relative text-center text-white overflow-hidden " id="sleepingThkr" data-name ="اذكارالنوم">
+                        <div class="info fs-4 fw-medium  d-flex  flex-column  mt-4  mb-2 justify-content-center"> <p> اذكار النوم</p> <p>  3 اذكار </p></div>
+                        <div class="image overflow-hidden"> <img src="images/sleep.png"  class="w-100 h-100" alt="sleep.png"></div>
+                    </div> 
+    
+                    <div class="swiper-slide flex-between Ar-dir w-300p  p-3 position-relative text-center text-white overflow-hidden " id="prayingThkr" data-name="اذكار الصلاة">
+                        <div class="info fs-4 fw-medium  d-flex  flex-column  mt-4  mb-2 justify-content-center"> <p> اذكار الصلاة</p> <p>  8 اذكار </p></div>
+                        <div class="image overflow-hidden "> <img src="images/mosque.png"  class="w-100 h-100"  alt="mosque.png"></div>
+                    </div>
+    
+                    <div class="swiper-slide flex-between Ar-dir w-300p  p-3 position-relative text-center text-white overflow-hidden ">
+                        <div class="info  fs-4 fw-medium d-flex  flex-column  mt-4  mb-2 justify-content-center"> <p> اذكار الصباح</p> <p>  3 اذكار </p></div>
+                        <div class="image overflow-hidden"> <img src="images/moon.png"  class="w-100 h-100"  alt="sun.png"></div>
+                    </div> 
+    
+                </div>
+            </div>
+            <!-- End swipper -->
+
+            <div class="content text-center text-md-end mb-3">
+                <h2 class="main-heading" id="heading">اذكار الصباح</h2>
+                <p class="thkrContent" id="thkrContent"></p>
+            </div>
+    
+        </div>
+     </div>
+    <!-- End adkar -->
+
+   
+    <!-- swipper cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- bootstrap js cdn -->
+    <script src="js/bootstrap.bundle.min.js"></script>    
+    <!--  tafiq js -->
+     <script src="js/tafqit.js"></script>
+    <!--  js script-->
+    <script src="js/main.js"></script>
+    <script src="adkar.js"></script>
+
+</body>
+</html> 

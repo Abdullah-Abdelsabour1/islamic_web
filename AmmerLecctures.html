@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css style -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- css loading screen -->
+    <link rel="stylesheet" href="css/LoadingScreen.css">
+    <!-- CDN fontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Hls library to live  -->
+    <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+    <link rel="icon" type="image/png" sizes="24x24" href="images/mosque-icon.png"/> <link>
+    <title>islam web</title>
+</head>
+<body>
+    
+    <!-- start loading the screen -->
+    <div class="screenLoader">
+        <div class="loader">
+            <div class="loader__bar"></div>
+            <div class="loader__bar"></div>
+            <div class="loader__bar"></div>
+            <div class="loader__bar"></div>
+            <div class="loader__bar"></div>
+            <div class="loader__ball"></div>
+        </div>
+    </div>
+    <!-- End loading the screen-->
+
+    <!-- start scrollToTop -->
+        <div class="scrollTop">
+            <i class="fa fa-chevron-up "></i>
+        </div>
+    <!-- End scrollToTop -->
+
+      <!-- start navBar -->
+      <header>
+         <div class="container  position-relative  d-flex  align-items-center  justify-content-between ">
+            <div class="nav__logo"> <a href="index.html"> <i class="fa-solid fa-mosque"></i></a></div>
+            <!-- <div class="heading"> <h2>مكتبة المسلم</h2></div>  -->
+            <div class = "toggleBurger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+          </div>      
+     </header>
+    <!-- end navBar -->
+    
+    <!-- start side bar  -->
+        <div class="side__Bar" id="side__Bar">
+            <div class="close"><i class="fa-solid fa-xmark"></i></div>
+           
+            <ul class="nav__links container" id="nav__links">
+                <li class="active"><a href="index.html">الرئيسية</a></li>
+                <li><a href="choosequraan.html">القران الكريم</a></li>
+                <li><a href="hadith.html">أحاديث</a></li>
+                
+                <li><a href="All_lectures.html">محاضرات دينية</a></li>
+                <li><a href="books.html">كتب</a></li>
+                <li><a href="adkkar.html">اذكار</a></li>
+                <li><a href="prayerTiming.html">مواقيت الصلاة</a></li>
+                <li><a href="Names_Of_Allah.html">أسماء الله الحسني</a></li>
+                <li><a href="QAS.html">سؤال وجواب</a></li>
+                <li><a href="developer.html">نبذة عن المطورين</a></li>
+                <li><a href="contact.html">تواصل معنا</a></li>
+               
+            </ul>
+        </div> 
+    <!-- End side bar  -->
+    
+    <!-- start quraan Sessions   -->
+     <div class="lectures  quraanSessions py-4 Ar-dir bg-light ">
+        <div class="LecContainer w-95 mx-auto ">
+            <div class="row g-3">
+                <div class="col-md-6 col-xl-4">
+                    <div class="card shadow-sm  text-center  border-0  bg-white px-3 py-3 rounded-3 ">
+                        <div class="info" >
+                            <div class="image w-100 rounded-4  overflow-hidden overflow-hidden"> <img class="w-100  mw-100 h-100 mh-100  " src="quraanSession/Qur’an councils_lec1.PNG" alt=" Qur’an councils_lec1.PNG"></div>
+                            <p class="title mt-4 w-75 mx-auto  mx-auto"> مجالس القران - الدرس الاول - سورة ق</p>
+                            <div class="buttons w-50 text-center mx-auto w-50 text-center mx-auto ">
+                                <a href="javaScript:void()" data-id ="1" data-name ="Ammer" class="show w-100 p-2 d-inline-block px-4 mx-auto  rounded-2  text-white btn-liner-gradient">مشاهدة</a>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+                <div class="col-md-6 col-xl-4">
+                       <div class="card shadow-sm  text-center  border-0 bg-white px-3 py-3 rounded-3 ">
+                        <div class="info" >
+                            <div class="image w-100 rounded-4  overflow-hidden  "> <img class="w-100  mw-100 h-100 mh-100" src="quraanSession/Qur’an councils_lec2.PNG" alt=" Qur’an councils_lec2.PNG"></div>
+                            <p class="title mt-4 w-75 mx-auto"> مجالس القرآن -الدرس الثاني- سورة الطور </p>
+                            <div class="buttons w-50 text-center mx-auto">
+                                <a href="javaScript:void()" data-id ="2" data-name ="Ammer" class="show w-100 p-2 d-inline-block px-4mx-auto rounded-2 btn-liner-gradient text-white">مشاهدة</a>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+                <div class="col-md-6 col-xl-4">
+                       <div class="card shadow-sm  text-center  border-0 bg-white px-3 py-3 rounded-3 ">
+                        <div class="info" >
+                            <div class="image w-100 rounded-4  overflow-hidden  "> <img class="w-100  mw-100 h-100 mh-100" src="quraanSession/Qur’an councils_lec3.PNG" alt=" Qur’an councils_lec3.PNG"></div>
+                            <p class="title mt-4 w-75 mx-auto"> مجالس القرآن -الدرس الثالث- سورة الذاريات</p>
+                            <div class="buttons w-50 text-center mx-auto">
+                                <a href="javaScript:void()" data-id ="3" data-name ="Ammer" class="show w-100 p-2 d-inline-block px-4mx-auto rounded-2  text-white btn-liner-gradient">مشاهدة</a>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+                <div class="col-md-6 col-xl-4">
+                       <div class="card shadow-sm  text-center  border-0 bg-white px-3 py-3 rounded-3 ">
+                        <div class="info" >
+                            <div class="image w-100 rounded-4  overflow-hidden  "> <img class="w-100  mw-100 h-100 mh-100" src="quraanSession/Qur’an councils_lec4.PNG" alt=" Qur’an councils_lec4.PNG"></div>
+                            <p class="title mt-4 w-75 mx-auto">مجالس القرآن -الدرس الرابع- سورة النجم</p>
+                            <div class="buttons w-50 text-center mx-auto">
+                                <a href="javaScript:void()" data-id ="4" data-name ="Ammer" class="show w-100 p-2 d-inline-block px-4mx-auto rounded-2  text-white btn-liner-gradient">مشاهدة</a>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+                <div class="col-md-6 col-xl-4">
+                       <div class="card shadow-sm  text-center  border-0 bg-white px-3 py-3 rounded-3 ">
+                        <div class="info" >
+                            <div class="image w-100 rounded-4  overflow-hidden  "> <img class="w-100  mw-100 h-100 mh-100" src="quraanSession/Qur’an councils_lec5..PNG" alt=" Qur’an councils_lec5.PNG"></div>
+                            <p class="title mt-4 w-75 mx-auto">مجالس القرآن -الدرس الخامس- سورة القمر</p>
+                            <div class="buttons w-50 text-center mx-auto">
+                                <a href="javaScript:void()" data-id ="5" data-name ="Ammer" class="show w-100 p-2 d-inline-block px-4mx-auto rounded-2  text-white btn-liner-gradient">مشاهدة</a>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+                <div class="col-md-6 col-xl-4">
+                       <div class="card shadow-sm  text-center  border-0 bg-white px-3 py-3 rounded-3 ">
+                        <div class="info" >
+                            <div class="image w-100 rounded-4  overflow-hidden  "> <img class="w-100  mw-100 h-100 mh-100" src="quraanSession/Qur’an councils_lec6.PNG" alt=" Qur’an councils_lec6.PNG"></div>
+                            <p class="title mt-4 w-75 mx-auto ">مجالس القرآن -الدرس السادس- سورة الرحمن</p>
+                            <div class="buttons w-50 text-center mx-auto">
+                                <a href="javaScript:void()" data-id ="6" data-name ="Ammer" class="show w-100 p-2 d-inline-block px-4mx-auto rounded-2  text-white btn-liner-gradient">مشاهدة</a>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+                <div class="col-md-6 col-xl-4">
+                       <div class="card shadow-sm  text-center  border-0 bg-white px-3 py-3 rounded-3 ">
+                        <div class="info" >
+                            <div class="image w-100 rounded-4  overflow-hidden  "> <img class="w-100  mw-100 h-100 mh-100" src="quraanSession/Qur’an councils_lec7.PNG" alt=" Qur’an councils_lec7.PNG"></div>
+                            <p class="title mt-4 w-75 mx-auto ">مجالس القرآن -الدرس السابع- سورة الواقعة جزء١</p>
+                            <div class="buttons w-50 text-center mx-auto">
+                                <a href="javaScript:void()" data-id ="7" data-name ="Ammer" class="show w-100 p-2 d-inline-block px-4mx-auto rounded-2  text-white btn-liner-gradient">مشاهدة</a>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+                <div class="col-md-6 col-xl-4">
+                       <div class="card shadow-sm  text-center  border-0 bg-white px-3 py-3 rounded-3 ">
+                        <div class="info" >
+                            <div class="image w-100 rounded-4  overflow-hidden  "> <img class="w-100  mw-100 h-100 mh-100" src="quraanSession/Qur’an councils_lec8.PNG" alt=" Qur’an councils_lec8.PNG"></div>
+                            <p class="title mt-4 w-75 mx-auto ">مجالس القرآن -الدرس الثامن- سورة الواقعة جزء٢</p>
+                            <div class="buttons w-50 text-center mx-auto">
+                                <a href="javaScript:void()" data-id ="8" data-name ="Ammer" class="show w-100 p-2 d-inline-block px-4mx-auto rounded-2  text-white btn-liner-gradient">مشاهدة</a>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+                <div class="col-md-6 col-xl-4">
+                       <div class="card shadow-sm  text-center  border-0 bg-white px-3 py-3 rounded-3 ">
+                        <div class="info" >
+                            <div class="image w-100 rounded-4  overflow-hidden "> <img class="w-100  mw-100 h-100 mh-100" src="quraanSession/Qur’an councils_lec9.PNG" alt=" Qur’an councils_lec9.PNG"></div>
+                            <p class="title mt-4 w-75 mx-auto ">مجالس القرآن -الدرس التاسع- سورة الحديد جزء١</p>
+                            <div class="buttons w-50 text-center mx-auto">
+                                <a href="javaScript:void()" data-id ="9" data-name ="Ammer" class="show w-100 p-2 d-inline-block px-4mx-auto rounded-2  text-white btn-liner-gradient">مشاهدة</a>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+                <div class="col-md-6 col-xl-4">
+                       <div class="card shadow-sm  text-center  border-0 bg-white px-3 py-3 rounded-3 ">
+                        <div class="info" >
+                            <div class="image w-100 rounded-4  overflow-hidden  "> <img class="w-100  mw-100 h-100 mh-100" src="quraanSession/Qur’an councils_lec10.PNG" alt=" Qur’an councils_lec10.PNG"></div>
+                            <p class="title mt-4 w-75 mx-auto ">مجالس القرآن -الدرس العاشر- سورة الحديد جزء٢</p>
+                            <div class="buttons w-50 text-center mx-auto">
+                                <a href="javaScript:void()" data-id ="10" data-name ="Ammer" class="show w-100 p-2 d-inline-block px-4mx-auto rounded-2  text-white btn-liner-gradient">مشاهدة</a>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+                <div class="col-md-6 col-xl-4">
+                       <div class="card shadow-sm  text-center  border-0 bg-white px-3 py-3 rounded-3 ">
+                        <div class="info" >
+                            <div class="image w-100 rounded-4  overflow-hidden "> <img class="w-100  mw-100 h-100 mh-100" src="quraanSession/Qur’an councils_lec11.PNG" alt=" Qur’an councils_lec11.PNG"></div>
+                            <p class="title mt-4 w-75 mx-auto ">مجالس القرآن -الدرس الحادي عشر- سورة التغابن</p>
+                            <div class="buttons w-50 text-center mx-auto">
+                                <a href="javaScript:void()" data-id ="11" data-name ="Ammer" class="show w-100 p-2 d-inline-block px-4mx-auto rounded-2  text-white btn-liner-gradient">مشاهدة</a>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+                <div class="col-md-6 col-xl-4">
+                       <div class="card shadow-sm  text-center  border-0 bg-white px-3 py-3 rounded-3 ">
+                        <div class="info" >
+                            <div class="image w-100 rounded-4  overflow-hidden  "> <img class="w-100  mw-100 h-100 mh-100" src="quraanSession/Qur’an councils_lec12.PNG" alt=" Qur’an councils_lec12.PNG"></div>
+                            <p class="title mt-4 w-75 mx-auto ">مجالس القرآن -الدرس الثاني عشر- سورة الملك</p>
+                            <div class="buttons w-50 text-center mx-auto">
+                                <a href="javaScript:void()" data-id ="12" data-name ="Ammer" class="show w-100 p-2 d-inline-block px-4mx-auto rounded-2  text-white btn-liner-gradient">مشاهدة</a>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+                <div class="col-md-6 col-xl-4">
+                       <div class="card shadow-sm  text-center  border-0 bg-white px-3 py-3 rounded-3 ">
+                        <div class="info" >
+                            <div class="image w-100 rounded-4  overflow-hidden  "> <img class="w-100  mw-100 h-100 mh-100" src="quraanSession/Qur’an councils_lec13.PNG" alt=" Qur’an councils_lec13.PNG"></div>
+                            <p class="title mt-4 w-75 mx-auto ">مجالس القرآن -الدرس الثالث عشر- سورة القلم</p>
+                            <div class="buttons w-50 text-center mx-auto">
+                                <a href="javaScript:void()" data-id ="13" data-name ="Ammer" class="show w-100 p-2 d-inline-block px-4mx-auto rounded-2  text-white btn-liner-gradient">مشاهدة</a>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+                <div class="col-md-6 col-xl-4">
+                       <div class="card shadow-sm  text-center  border-0 bg-white px-3 py-3 rounded-3 ">
+                        <div class="info" >
+                            <div class="image w-100 rounded-4  overflow-hidden"> <img class="w-100  mw-100 h-100 mh-100" src="quraanSession/Qur’an councils_lec14.PNG" alt=" Qur’an councils_lec14.PNG"></div>
+                            <p class="title mt-4 w-75 mx-auto ">مجالس القرآن -الدرس الرابع عشر- سورة الحاقة</p>
+                            <div class="buttons w-50 text-center mx-auto">
+                                <a href="javaScript:void()" data-id ="14" data-name ="Ammer" class="show w-100 p-2 d-inline-block px-4mx-auto rounded-2  text-white btn-liner-gradient">مشاهدة</a>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+                <div class="col-md-6 col-xl-4">
+                       <div class="card shadow-sm  text-center  border-0 bg-white px-3 py-3 rounded-3 ">
+                        <div class="info" >
+                            <div class="image w-100 rounded-4  overflow-hidden  "> <img class="w-100  mw-100 h-100 mh-100" src="quraanSession/Qur’an councils_lec15.PNG" alt=" Qur’an councils_lec15.PNG"></div>
+                            <p class="title mt-4 w-75 mx-auto ">مجالس القرآن -الدرس الخامس عشر- سورة المعارج</p>
+                            <div class="buttons w-50 text-center mx-auto">
+                                <a href="javaScript:void()" data-id ="15" data-name ="Ammer" class="show w-100 p-2 d-inline-block px-4mx-auto rounded-2  text-white btn-liner-gradient">مشاهدة</a>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+                <div class="col-md-6 col-xl-4">
+                       <div class="card shadow-sm  text-center  border-0 bg-white px-3 py-3 rounded-3 ">
+                        <div class="info" >
+                            <div class="image w-100 rounded-4  overflow-hidden  "> <img class="w-100  mw-100 h-100 mh-100" src="quraanSession/Qur’an councils_lec16.PNG" alt=" Qur’an councils_lec16.PNG"></div>
+                            <p class="title mt-4 w-75 mx-auto ">مجالس القرآن -الدرس السادس عشر- سورة المزمل</p>
+                            <div class="buttons w-50 text-center mx-auto">
+                                <a href="javaScript:void()" data-id ="16" data-name ="Ammer" class="show w-100 p-2 d-inline-block px-4mx-auto rounded-2  text-white btn-liner-gradient">مشاهدة</a>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+                
+            </div>
+        </div>
+     </div>
+    <!-- End quraan Sessions   -->
+       
+    <!-- bootstrap js -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!--  js script-->
+    <script src="js/main.js"></script>
+    <script src="js/live.js"></script>
+
+</body>
+</html>

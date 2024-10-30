@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css style -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- css loading screen -->
+    <link rel="stylesheet" href="css/LoadingScreen.css">
+    <!-- CDN fontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Hls library to live  -->
+    <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+    <link rel="icon" type="image/png" sizes="24x24" href="images/mosque-icon.png"/> <link>
+    <title>islam web</title>
+</head>
+<body>
+    
+    <!-- start loading the screen -->
+    <div class="screenLoader">
+        <div class="loader">
+            <div class="loader__bar"></div>
+            <div class="loader__bar"></div>
+            <div class="loader__bar"></div>
+            <div class="loader__bar"></div>
+            <div class="loader__bar"></div>
+            <div class="loader__ball"></div>
+        </div>
+    </div>
+    <!-- End loading the screen-->
+
+    <!-- start scrollToTop -->
+        <div class="scrollTop">
+            <i class="fa fa-chevron-up "></i>
+        </div>
+    <!-- End scrollToTop -->
+
+      <!-- start navBar -->
+      <header>
+         <div class="container  position-relative  d-flex  align-items-center  justify-content-between ">
+            <div class="nav__logo"> <a href="index.html"> <i class="fa-solid fa-mosque"></i></a></div>
+            <div class = "toggleBurger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+          </div>      
+     </header>
+    <!-- end navBar -->
+    
+    <!-- start side bar  -->
+        <div class="side__Bar" id="side__Bar">
+            <div class="close"><i class="fa-solid fa-xmark"></i></div>
+           
+            <ul class="nav__links container" id="nav__links">
+                <li class="active"><a href="index.html">الرئيسية</a></li>
+                <li><a href="choosequraan.html">القران الكريم</a></li>
+                <li><a href="hadith.html">أحاديث</a></li>
+                
+                <li><a href="All_lectures.html">محاضرات دينية</a></li>
+                <li><a href="books.html">كتب</a></li>
+                <li><a href="adkkar.html">اذكار</a></li>
+                <li><a href="prayerTiming.html">مواقيت الصلاة</a></li>
+                <li><a href="Names_Of_Allah.html">أسماء الله الحسني</a></li>
+                <li><a href="QAS.html">سؤال وجواب</a></li>
+                <li><a href="developer.html">نبذة عن المطورين</a></li>
+                <li><a href="contact.html">تواصل معنا</a></li>
+            </ul>
+        </div> 
+    <!-- End side bar  -->
+    <!-- start developer -->
+     <div class="hadith_page p-3 bg-body-secondary ">
+        <div class="hadith_container bg-white  w-98 rounded-3 p-3 overflow-y-scroll">
+            <div class="hadith_boxs">
+                <!-- Get data from json file -->
+                <div class="Prayer_Hadiths"></div>
+                <div class="Fasting_hadith"></div>
+                <div class="Hij_Hadith"></div>
+            </div>
+        </div>
+
+     </div>
+    <!-- End developer -->
+     
+    <!-- bootstrap js -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!--  js script-->
+    <script src="js/main.js"></script>
+
+    <script src="hadith.js"></script>
+</body>
+</html>

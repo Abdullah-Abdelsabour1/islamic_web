@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css style -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- css loading screen -->
+    <link rel="stylesheet" href="css/LoadingScreen.css">
+    <!-- CDN fontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Hls library to live  -->
+    <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+    <link rel="icon" type="image/png" sizes="24x24" href="images/mosque-icon.png"/> <link>
+    <title>islam web</title>
+</head>
+<body style="background-color: #eee;">
+    
+    <!-- start loading the screen -->
+    <div class="screenLoader">
+        <div class="loader">
+            <div class="loader__bar"></div>
+            <div class="loader__bar"></div>
+            <div class="loader__bar"></div>
+            <div class="loader__bar"></div>
+            <div class="loader__bar"></div>
+            <div class="loader__ball"></div>
+        </div>
+    </div>
+    <!-- End loading the screen-->
+
+    <!-- start scrollToTop -->
+        <div class="scrollTop">
+            <i class="fa fa-chevron-up "></i>
+        </div>
+    <!-- End scrollToTop -->
+
+      <!-- start navBar -->
+      <header>
+         <div class="container  position-relative  d-flex  align-items-center  justify-content-between ">
+            <div class="nav__logo"> <a href="index.html"> <i class="fa-solid fa-mosque"></i></a></div>
+            <!-- <div class="heading"> <h2>مكتبة المسلم</h2></div>  -->
+            <div class = "toggleBurger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+          </div>      
+     </header>
+    <!-- end navBar -->
+    
+    <!-- start side bar  -->
+        <div class="side__Bar" id="side__Bar">
+            <div class="close"><i class="fa-solid fa-xmark"></i></div>
+           
+            <ul class="nav__links container" id="nav__links">
+                <li class="active"><a href="index.html">الرئيسية</a></li>
+                <li><a href="choosequraan.html">القران الكريم</a></li>
+                <li><a href="hadith.html">أحاديث</a></li>
+                
+                <li><a href="lectures.html">محاضرات دينية</a></li>
+                <li><a href="books.html">كتب</a></li>
+                <li><a href="adkkar.html">اذكار</a></li>
+                <li><a href="prayerTiming.html">مواقيت الصلاة</a></li>
+                <li><a href="Names_Of_Allah.html">أسماء الله الحسني</a></li>
+                <li><a href="QAS.html">سؤال وجواب</a></li>
+                <li><a href="developer.html">نبذة عن المطورين</a></li>
+                <li><a href="contact.html">تواصل معنا</a></li>
+                <li><a href="live.html"> بث مباشر</a></li>
+            </ul>
+        </div> 
+    <!-- End side bar  -->
+    
+    <!-- start the End  -->
+     <div class="theEnd py-5" style="direction: rtl;">
+        <div class="container">
+            <div class="row g-3">
+                <div class="col-md-6 col-lg-4">  
+                    <div class="card text-center bg-white p-4  rounded-3 ">
+                        <div class="info" >
+                            <div class="image w-100"> <img class="w-100  mw-100 " src="the End/afterworldPromo.PNG" ></div>
+                            <p class="title mt-4 ">برومو رحلة إلى الدار الآخرة</p>
+                            <div class="buttons">
+                                <a href=""  class="Reading p-2 d-inline-block px-4 me-2 rounded-2  text-white bg-info  ">مشاهدة</a>
+                                <a href=""  class="loading p-2 d-inline-block px-4 me-2 rounded-2  text-white bg-danger  ">تحميل</a>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+                <div class="col-md-6 col-lg-4">  
+                    <div class="card text-center bg-white p-4  rounded-3 ">
+                        <div class="info" >
+                            <div class="image w-100"> <img class="w-100  mw-100 " src="the End/afterworldSeries1.PNG" ></div>
+                            <p class="title mt-4 ">الحلقة ١ - خروج الروح (الجزء الأول)</p>
+                            <div class="buttons">
+                                <a href=""  class="Reading p-2 d-inline-block px-4 me-2 rounded-2  text-white bg-info  ">مشاهدة</a>
+                                <a href=""  class="loading p-2 d-inline-block px-4 me-2 rounded-2  text-white bg-danger  ">تحميل</a>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+                <div class="col-md-6 col-lg-4">  
+                    <div class="card text-center bg-white p-4  rounded-3 ">
+                        <div class="info" >
+                            <div class="image w-100"> <img class="w-100  mw-100 " src="the End/afterworldSeries2.PNG" ></div>
+                            <p class="title mt-4">الحلقة ٢ - خروج الروح (الجزء الثاني)</p>
+                            <div class="buttons">
+                                <a href=""  class="Reading p-2 d-inline-block px-4 me-2 rounded-2  text-white bg-info  ">مشاهدة</a>
+                                <a href=""  class="loading p-2 d-inline-block px-4 me-2 rounded-2  text-white bg-danger  ">تحميل</a>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+               
+                <div class="col-md-6 col-lg-4">  
+                    <div class="card text-center bg-white p-4  rounded-3 ">
+                        <div class="info" >
+                            <div class="image w-100"> <img class="w-100  mw-100 " src="the End/afterworldSeries3PNG.PNG" ></div>
+                            <p class="title mt-4 ">الحلقة ٣ - القبر (الجزء الأول)</p>
+                            <div class="buttons">
+                                <a href=""  class="Reading p-2 d-inline-block px-4 me-2 rounded-2  text-white bg-info  ">مشاهدة</a>
+                                <a href=""  class="loading p-2 d-inline-block px-4 me-2 rounded-2  text-white bg-danger  ">تحميل</a>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+               
+                <div class="col-md-6 col-lg-4">  
+                    <div class="card text-center bg-white p-4  rounded-3 ">
+                        <div class="info" >
+                            <div class="image w-100"> <img class="w-100  mw-100 " src="the End/afterworldSeries4.PNG" ></div>
+                            <p class="title mt-4 ">الحلقة ٤ - القبر (الجزء الثاني)</p>
+                            <div class="buttons">
+                                <a href=""  class="Reading p-2 d-inline-block px-4 me-2 rounded-2  text-white bg-info  ">مشاهدة</a>
+                                <a href=""  class="loading p-2 d-inline-block px-4 me-2 rounded-2  text-white bg-danger  ">تحميل</a>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+               
+                <div class="col-md-6 col-lg-4">  
+                    <div class="card text-center bg-white p-4  rounded-3 ">
+                        <div class="info" >
+                            <div class="image w-100"> <img class="w-100  mw-100 " src="the End/afterworldSeries5.PNG" ></div>
+                            <p class="title mt-4 ">الحلقة ٥ - أهوال القيامة</p>
+                            <div class="buttons">
+                                <a href=""  class="Reading p-2 d-inline-block px-4 me-2 rounded-2  text-white bg-info  ">مشاهدة</a>
+                                <a href=""  class="loading p-2 d-inline-block px-4 me-2 rounded-2  text-white bg-danger  ">تحميل</a>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+               
+                <div class="col-md-6 col-lg-4">  
+                    <div class="card text-center bg-white p-4  rounded-3 ">
+                        <div class="info" >
+                            <div class="image w-100"> <img class="w-100  mw-100 " src="the End/afterworldSeries6.PNG" ></div>
+                            <p class="title mt-4 ">الحلقة ٦ - وقفة غير أي وقفة</p>
+                            <div class="buttons">
+                                <a href=""  class="Reading p-2 d-inline-block px-4 me-2 rounded-2  text-white bg-info  ">مشاهدة</a>
+                                <a href=""  class="loading p-2 d-inline-block px-4 me-2 rounded-2  text-white bg-danger  ">تحميل</a>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+               
+                <div class="col-md-6 col-lg-4">  
+                    <div class="card text-center bg-white p-4  rounded-3 ">
+                        <div class="info" >
+                            <div class="image w-100"> <img class="w-100  mw-100 " src="the End/afterworldSeries7.PNG" ></div>
+                            <p class="title mt-4 ">الحلقة ٧ - الصراط</p>
+                            <div class="buttons">
+                                <a href=""  class="Reading p-2 d-inline-block px-4 me-2 rounded-2  text-white bg-info  ">مشاهدة</a>
+                                <a href=""  class="loading p-2 d-inline-block px-4 me-2 rounded-2  text-white bg-danger  ">تحميل</a>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+               
+                <div class="col-md-6 col-lg-4">  
+                    <div class="card text-center bg-white p-4  rounded-3 ">
+                        <div class="info" >
+                            <div class="image w-100"> <img class="w-100  mw-100 " src="the End/afterworldSeries8.PNG" ></div>
+                            <p class="title mt-4 ">الحلقة ٨ - الحوض</p>
+                            <div class="buttons">
+                                <a href=""  class="Reading p-2 d-inline-block px-4 me-2 rounded-2  text-white bg-info  ">مشاهدة</a>
+                                <a href=""  class="loading p-2 d-inline-block px-4 me-2 rounded-2  text-white bg-danger  ">تحميل</a>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+               
+                <div class="col-md-6 col-lg-4">  
+                    <div class="card text-center bg-white p-4  rounded-3 ">
+                        <div class="info" >
+                            <div class="image w-100"> <img class="w-100  mw-100 " src="the End/afterworldSeries9.PNG" ></div>
+                            <p class="title mt-4 ">الحلقة ٩ - القنطرة</p>
+                            <div class="buttons">
+                                <a href=""  class="Reading p-2 d-inline-block px-4 me-2 rounded-2  text-white bg-info  ">مشاهدة</a>
+                                <a href=""  class="loading p-2 d-inline-block px-4 me-2 rounded-2  text-white bg-danger  ">تحميل</a>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+               
+                <div class="col-md-6 col-lg-4">  
+                    <div class="card text-center bg-white p-4  rounded-3 ">
+                        <div class="info" >
+                            <div class="image w-100"> <img class="w-100  mw-100 " src="the End/afterworldSeries10.PNG" ></div>
+                            <p class="title mt-4 ">الحلقة ١٠ - الأعراف</p>
+                            <div class="buttons">
+                                <a href=""  class="Reading p-2 d-inline-block px-4 me-2 rounded-2  text-white bg-info  ">مشاهدة</a>
+                                <a href=""  class="loading p-2 d-inline-block px-4 me-2 rounded-2  text-white bg-danger  ">تحميل</a>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+               
+                <div class="col-md-6 col-lg-4">  
+                    <div class="card text-center bg-white p-4  rounded-3 ">
+                        <div class="info" >
+                            <div class="image w-100"> <img class="w-100  mw-100 " src="the End/afterworldSeries11.PNG" ></div>
+                            <p class="title mt-4 ">الحلقة ١١ - النار</p>
+                            <div class="buttons">
+                                <a href=""  class="Reading p-2 d-inline-block px-4 me-2 rounded-2  text-white bg-info  ">مشاهدة</a>
+                                <a href=""  class="loading p-2 d-inline-block px-4 me-2 rounded-2  text-white bg-danger  ">تحميل</a>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+               
+                <div class="col-md-6 col-lg-4">  
+                    <div class="card text-center bg-white p-4  rounded-3 ">
+                        <div class="info" >
+                            <div class="image w-100"> <img class="w-100  mw-100 " src="the End/afterworldSeries12.PNG" ></div>
+                            <p class="title mt-4 ">الحلقة ١٢ - الجنة</p>
+                            <div class="buttons">
+                                <a href=""  class="Reading p-2 d-inline-block px-4 me-2 rounded-2  text-white bg-info  ">مشاهدة</a>
+                                <a href=""  class="loading p-2 d-inline-block px-4 me-2 rounded-2  text-white bg-danger  ">تحميل</a>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+               
+                <div class="col-md-6 col-lg-4">  
+                    <div class="card text-center bg-white p-4  rounded-3 ">
+                        <div class="info" >
+                            <div class="image w-100"> <img class="w-100  mw-100 " src="the End/afterworldSeries13.PNG" ></div>
+                            <p class="title mt-4 ">الحلقة الأخيرة - رؤية وجه الله عز و جل</p>
+                            <div class="buttons">
+                                <a href=""  class="Reading p-2 d-inline-block px-4 me-2 rounded-2  text-white bg-info  ">مشاهدة</a>
+                                <a href=""  class="loading p-2 d-inline-block px-4 me-2 rounded-2  text-white bg-danger  ">تحميل</a>
+                            </div>
+                        </div>
+                    </div> 
+                </div> 
+            </div>
+        </div>
+     </div>
+      <!--End the End  -->
+ 
+ 
+   
+      
+    <!-- bootstrap js -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!--  js script-->
+    <script src="js/main.js"></script>
+    <script src="js/live.js"></script>
+
+</body>
+</html>
